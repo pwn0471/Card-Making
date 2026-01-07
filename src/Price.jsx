@@ -8,7 +8,7 @@ export default function Price({oldPrice , newPrice}){
     let styles ={
         backgroundColor:"#e8be25ff",
         height:"30px",
-        width:"200px",
+        width:"220px",
         borderBottomLeftRadius : "14px",
         borderBottomRightRadius : "14px",
     }

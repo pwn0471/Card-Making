@@ -1,7 +1,7 @@
 import "./Product.css"; 
 import Price  from "./Price";
 
-function Product({title ,idx}){
+function Product({title ,idx, img}){
 
     let oldprices = ["99,999", "1,50,000", "1,70,000", "49,000"];
     let newprices = ["9999", "15000", "17000", "4900"];
@@ -17,6 +17,7 @@ function Product({title ,idx}){
     return (
         <div className=" Product">
             <h4>{title}</h4>
+            <img src={img} alt={title} width="150" height="150" border-radius="50%"/>
             <p>{description[idx][0]}</p>
             <p>{description[idx][1]}</p>
 
